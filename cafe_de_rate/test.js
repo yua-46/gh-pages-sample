@@ -26,7 +26,7 @@ $(function() {
     });
 
     
-    $('.header_btn2 a').hover(
+    /*$('.header_btn2 a').hover(
       function(){
       $(this).animate({
         'color': 'red'
@@ -36,7 +36,7 @@ $(function() {
       $(this).animate({
         'color': 'white'
       },300);
-    });
+    });*/
 
 
     $('#other ol li img').hover(
@@ -53,7 +53,7 @@ $(function() {
 
 
 
-
+//スライダー
     $('.slider').slick({
       infinite: true,
       dots:true,

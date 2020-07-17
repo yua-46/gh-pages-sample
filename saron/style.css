@@ -37,14 +37,7 @@ table{border-collapse: collapse; border-spacing:0;}
 caption, th{text-align: left;}
 a:focus {outline:none;}
 
-/* micro clearfix */
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-.cf:after {clear: both;}
-.cf {*zoom: 1;}
+
 
 
 /*========================================
