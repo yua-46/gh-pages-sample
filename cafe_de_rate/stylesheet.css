@@ -192,19 +192,19 @@ h1 img{
     margin: 0 auto;
 	width: 1024px;
 }
-.slider li img{
+/*.slider li img{
     height: 620px;
 	width: 1024px;
 	border: none;
-}
+}*/
 
-/*
+
 .slider li img{
     height: 650px;
 	width: 1080px;
 	border: none;
 }
-*/
+
 
 /*slick setting*/
 .slick-prev:before,
@@ -465,7 +465,7 @@ footer {
 
 
 /*========================================
-    menyu.html　
+    menu.html　
 ========================================= */
 
 .img_data img{
@@ -473,15 +473,14 @@ footer {
 	height: 270px;
 	margin: 0 auto;
 	display:block;
-	background-color: aqua;
 }
 
 .menu_container {
 	width: 1000px;
 	height: auto;
-	background-color: skyblue;
 	margin: 0 auto;
 	margin-top: 50px;
+	
 }
 .menu_btn {
 	width: 360px;
@@ -489,7 +488,6 @@ footer {
 	float: left;
 	margin-top: 84px;
 	margin-left: 93px;
-	background-color: violet;
 }
 .menu_btn:last-child{
 	margin-bottom: 84px;
@@ -502,14 +500,14 @@ footer {
 	width: 480px;
 	height: 500px;
 	float: left;
-	margin-left: 80px;
+	margin-left: 60px;
 	background-color: white;
 }
 #access_container {
 	width: 320px;
 	height: 500px;
 	float: right;
-	margin-right: 80px;
+	margin-right: 60px;
 	background-color: white;
 }
 #access_box {
@@ -530,34 +528,49 @@ footer {
 グローバル値
 継承した親のline-heightの値を解消しデフォルト値に戻す*/
 #access_box p:first-child {
-	font-size: 28px;
-	color: red;
+	font-size: 30px;
+	color:  grey;
 }
 #access_box2 p:first-child {
-	font-size: 30px;
+	font-size: 28px;
 }
 
 /*========================================
     recruit.html　
 ========================================= */
+h4 {
+	width: 100px;
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+	font-size:17px;
+	border: solid 1px #CCCCCC;
+	margin: 60px 0 20px 0;
+	background-color: #F6F6F6;
+}
 .menu_container table {
 	display: table;
 	box-sizing: border-box;
 	border-collapse: collapse;/*隣接するセルのボーダーを重ねて表示します。*/
 	border-spacing: 2px;
 	border-color: grey;
+	font-size:12px;
 }
 .menu_container th {
 	width: 180px;
-	height: auto;
 	text-align: center;
-	display: broke;
 	background-color: #F6F6F6;
 	border: solid 1px #CCCCCC;
 	display: table-cell;
-    vertical-align: inherit;
+    vertical-align: middle;
 }
 .menu_container td {
+	width: 820px;
 	display:table-cell;
-	vertical-align: inherit;
+	background-color: white;
+	border: solid 1px #CCCCCC;
+	display: table-cell;
+    vertical-align: inherit;
+	padding: 20px 15px;
+	line-height: 34px;
 }
