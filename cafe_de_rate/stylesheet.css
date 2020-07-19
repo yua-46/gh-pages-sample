@@ -368,7 +368,7 @@ h3 {
 	right: 0;
 	text-align: center;
 	background-color:white;
-	z-index: 200;
+	z-index: 50;
 	border: 1px dotted black;
 }
 .share ul p {
