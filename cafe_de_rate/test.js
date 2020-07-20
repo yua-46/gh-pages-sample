@@ -26,7 +26,7 @@ $(function() {
     });
 
     
-    $('.header_btn2 a').hover(
+    /*$('.header_btn2 a').hover(
       function(){
       $(this).animate({
         'color': 'red'
@@ -36,7 +36,7 @@ $(function() {
       $(this).animate({
         'color': 'white'
       },300);
-    });
+    });*/
 
 
     $('#other ol li img').hover(
@@ -51,9 +51,21 @@ $(function() {
       },300);
     });
 
+    $('.menu_btn a img').hover(
+      function(){
+        $(this).animate({
+          'opacity':'0.5'
+        },300);
+      },
+      function(){
+        $(this).animate({
+          'opacity':'1'
+        },300);
+      });
 
 
 
+//スライダー
     $('.slider').slick({
       infinite: true,
       dots:true,
